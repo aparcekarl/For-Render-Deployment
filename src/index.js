@@ -2,7 +2,7 @@ const express = require('express')
 const server = express()
 
 server.use((req, res) => {
-  res.send('Subdomain Takeover by Karl Aparece')
+  res.send('Subdomain Takeover by Karl Aparece ')
 })
 
 const PORT = process.env.PORT || 3000
